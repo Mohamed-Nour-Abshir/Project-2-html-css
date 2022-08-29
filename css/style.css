@@ -5,10 +5,11 @@
 nav{
     background: rgb(248, 207, 130);
 }
-nav h1{
+nav img{
     color: #926239;
     float: left;
     margin-left: 30px;
+    border-radius: 50%;
 }
 
 nav ul{
