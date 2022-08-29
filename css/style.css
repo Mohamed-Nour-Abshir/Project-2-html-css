@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(248, 207, 130);
+}
+nav h1{
+    color: #926239;
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 600px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #926239;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    /* border-top: 3px solid red; */
+    border-bottom: 3px double red;
+    padding-bottom: 10px;
+    color: red;
+}
+
+#showcase{
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+#showcase h1{
+    color: #926239;
+    text-align: center;
+    padding-top: 40px;
+}
+#showcase p{
+    color: #926239;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+#showcase .button{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    border: 1px solid #926239;
+    border-radius: 10px;
+    color: #926239;
+    padding: 10px 20px;
+    margin-left: 600px;
+    margin-top: 40px !important;
+}
+#showcase .button:hover{
+    color: #fff;
+    background: #926239;
+}
+.section-a{
+    background: #926239;
+    padding: 20px;
+    color: #fff;
+}
+.section-b{
+    padding: 20px;
+}
+.section-c{
+    display: flex;
+}
+.section-c #div1{
+    background: #926239;
+    padding: 20px;
+    color: #fff;
+}
+.section-c #div2{
+    padding: 20px;
+    background: green;
+    color: #fff;
+}
+.section-c #div3{
+    background: #926339;
+    padding: 20px;
+    color: #fff;
+}
+footer{
+    color: #926239;
+    background: rgb(248, 207, 130);
+    text-align: center;
+}
